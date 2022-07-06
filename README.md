@@ -9,3 +9,5 @@ This was a difficult task that was also rewarding. After a few hours, it turned 
 I found out that for some reason ctrl+c gets bash stuck until you press the same keys again.
 
 I found out that sometimes writing the folder's name yourself could be a problem, so I had to copy it then paste it after the cd command even though i was sure i didn't write it wrong the first time
+
+I found out that writing master instead of main stopped the commit
