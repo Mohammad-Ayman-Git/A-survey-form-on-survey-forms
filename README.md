@@ -5,3 +5,4 @@ I know it looks bad now, but the plan is to learn how to use git hub by making n
 ##update
 This part has been added manually using git on bash in vs studio, as the github desktop app had fatal errors. 
 This was a difficult task that was also rewarding. After a few hours, it turned out that I couldn't commit anything either because I hadn't pressed save first , or because i didn't type git add! I thought vs code saves on its own.. my bad.. this isn't google docs.
+I found out that for some reason ctrl+c gets bash stuck until you press the same keys again.
