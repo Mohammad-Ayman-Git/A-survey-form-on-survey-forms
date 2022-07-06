@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A survey form on survey forms</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1 id="title">A survey form on survey forms</h1>
+      <p id="description" class="description">This form is engineered to assess the amount and effect of forms that a random internet citizen is asked to fill in a span of a month.
+      Help us help you by filling this form for us. Thank you.
+      </p>
+    </header>
+
+    <main>
+      <form id="survey-form" action="https://register-demo.freecodecamp.dot">
+      <fieldset>
+        <label id="name-label">Name <input type="text" id="name" required placeholder="Enter your name"/></label>
+        <label id="email-label">E-mail <input type="email" id="email" required placeholder="Enter your email"/></label>
+        <label id="number-label">Age <input type="number" id="number" min="13" max="110" required placeholder="13+"/></label>
+    </fieldset>
+
+    <fieldset>
+      <label id="number-of-forms-label">About how many forms have you filled this month?<input id="number-of-forms" type="number" min="0" required/></label><label class="top-space">
+      Most of the forms you filled were a part of:</label><label id="service-for-me-label"> A service you opted for <input class="inline" type="radio" name="type of service" value="5"/></label>
+      <label id="service-by-me-label"> A service you were asked for <input class="inline" type="radio" name="type of service" value="6"/></label>
+      <label class="top-space">How does that make you feel?</label><select id="dropdown"><option value="0">Nothing</option><option value="1">good</option><option value="2">bad</option></select>
+    </fieldset>
+
+    <fieldset>Do you agree to the usage of the information you provided in our research?<label> Yes  <input class="inline" type="checkbox" value="3" required name="consent"/></label><label> Yes Please  <input class="inline" type="checkbox" value="4" required name="consent"/></label>
+    </fieldset>
+
+    <fieldset> 
+      <label>How do you feel about filling this form ? <textarea rows="3" cols="30"></textarea></label>
+      <label class="top-space"><p>Prove to us you're a human by answering the following question:</p>
+      <p>How many times was the word "form" [plural form included] used in this form?</p> <input type="number" min="11" max="11"></label>
+    </fieldset>
+    
+    <input type="submit" value="Submit" id="submit"/>
+    
+    
+    </form>
+ </main>
+  </body>
+</html>
